@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RYPing_Example' do
+  pod 'RYPing', :path => '../'
+
+  target 'RYPing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
